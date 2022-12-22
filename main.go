@@ -69,6 +69,6 @@ func main() {
 		os.Exit(1)
 		return
 	}
-	signature := parts[2]
+	signature := strings.TrimSpace(parts[2])
 	fmt.Printf("%s.%s.%s\n", header, payload, signature)
 }
