@@ -1,3 +1,3 @@
-module github.com/t-hg/jwt-encode
+module github.com/tobiashort/jwt-encode
 
 go 1.19
